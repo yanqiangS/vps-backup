@@ -1,0 +1,33 @@
+# 大文件备份 (使用 rsync 或云存储代替)
+*.tar.gz
+*.gz
+*.zip
+*.7z
+
+# 日志文件
+*.log
+
+# 数据和缓存
+*.csv
+*.json
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+node_modules/
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# 系统文件
+.DS_Store
+Thumbs.db
